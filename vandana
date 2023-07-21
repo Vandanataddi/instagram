@@ -1,0 +1,15 @@
+CREATE A SERVER
+INSTALLATION:
+
+mkdir swiggy  (mkdir is to create a folder)
+cd swiggy  (cd is to go inside folder)
+yum install git -y
+git init  (to get .git folder)
+
+
+touch file2	: create a file
+git status	: to check the file is tracking or not
+git add file2	: to track the file2
+git commit -m "abc" file2: to store the tracked file2
+git log		: to show the commits 
+git log --oneline : to show the commits on single line
